@@ -168,7 +168,7 @@ footer .fa-chevron-right {
     width: 230px;
     height: 4px;
     background-color: #0d6efd;
-    margin: 10px auto 80px auto;
+    margin: 5px auto 0px auto;
 }
 
 #services p {
@@ -190,10 +190,6 @@ footer .fa-chevron-right {
 #services .col-md-4 {
     padding: 15px;
 }
-
-
-
-
 
 #services .fas {
     color: #0d6efd;
@@ -230,4 +226,56 @@ footer .fa-chevron-right {
     background-color: white;
     color: #0d6efd;
     border: 2px solid #0d6efd;
+}
+
+/* section blog */
+#blog {
+    padding: 80px 0;
+}
+
+/* section contact */
+#contact {
+    background-image: url('images/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    position: relative;
+}
+
+#contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 105, 255, 0.5);
+}
+
+#contact .container {
+    position: relative;
+    z-index: 2;
+}
+
+#contact h4 {
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+#contact .col-md-6 p {
+    margin-bottom: 2px;
+}
+
+#contact iframe {
+    margin-top: 20px;
 }
