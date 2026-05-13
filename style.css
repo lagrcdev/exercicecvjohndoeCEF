@@ -1,0 +1,77 @@
+body {
+    font-family: 'Nunito sans';
+    background-color: #EEE;
+    color: #444;
+}
+
+/* navbar */
+nav .nav-link {
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* image de fond */
+#accueil {
+    background-image: url('images/imagedefond.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+#accueil::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+#accueil h1, #accueil h2 {
+    color: white;
+}
+
+/* a propos */
+#apropos {
+    padding-top: 80px;
+}
+
+/* ligne sous titre */
+.ligne-sous-titre {
+    width: 100%;
+    height: 2px;
+    background-color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+/* barres de progression */
+.barre-html {
+    background-color: #dc3545;
+}
+
+.barre-css {
+    background-color: #0dcaf0;
+}
+
+.barre-js {
+    background-color: #ffc107;
+}
+
+.barre-php {
+    background-color: #1a5c2a;
+}
+
+.barre-react {
+    background-color: #0d6efd;
+}
