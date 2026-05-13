@@ -14,6 +14,10 @@ nav .nav-link:hover {
     color: rgba(255, 255, 255, 0.8);
 }
 
+.navbar .nav-link.active {
+    color: #0d6efd;
+}
+
 /* image de fond */
 #accueil {
     background-image: url('images/imagedefond.jpg');
@@ -45,6 +49,7 @@ nav .nav-link:hover {
 /* a propos */
 #apropos {
     padding-top: 60px;
+    margin-bottom: 80px;
 }
 
 /* bloc avec ombre */
@@ -87,3 +92,60 @@ nav .nav-link:hover {
     background-color: #0d6efd;
 }
 
+/* footer */
+footer {
+    background-color: #d5d5d5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer p {
+    margin-bottom: 2px;
+}
+
+footer .fab {
+    font-size: 2.5rem;
+    margin-right: 10px;
+    margin-top: 20px;
+    color: #393939;
+}
+
+footer h5 {
+    color: #1e1e1e;
+}
+
+footer a {
+    color: #444;
+    text-decoration: none;
+}
+
+footer .fa-chevron-right {
+    color: #0d6efd;
+}
+
+/* bouton retour en haut */
+#btn-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0d6efd;
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+#btn-top:hover {
+    background-color: #298eff;
+}
+
+.copyright {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
