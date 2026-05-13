@@ -44,7 +44,18 @@ nav .nav-link:hover {
 
 /* a propos */
 #apropos {
-    padding-top: 80px;
+    padding-top: 60px;
+}
+
+/* bloc avec ombre */
+.bloc {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.bloc .col-md-6 {
+    padding: 50px;
 }
 
 /* ligne sous titre */
@@ -75,3 +86,4 @@ nav .nav-link:hover {
 .barre-react {
     background-color: #0d6efd;
 }
+
