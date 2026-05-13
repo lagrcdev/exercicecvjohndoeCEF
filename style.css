@@ -1,4 +1,4 @@
-body {
+﻿body {
     font-family: 'Nunito sans';
     background-color: #EEE;
     color: #444;
@@ -148,4 +148,58 @@ footer .fa-chevron-right {
     text-align: center;
     padding: 15px 0;
     margin-top: 30px;
+}
+
+/* page services */
+
+#image-services {
+    background-image: url('images/services.png');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+}
+
+#services {
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+.ligne-titre-centre {
+    width: 230px;
+    height: 4px;
+    background-color: #0d6efd;
+    margin: 10px auto 80px auto;
+}
+
+#services p {
+    font-size: 1rem;
+    font-weight: 600;
+        margin-bottom: 10px;
+}
+
+#services h2 {
+    margin-bottom: 4px;
+}
+
+
+#services .bloc {
+    height: 100%;
+}
+
+
+#services .col-md-4 {
+    padding: 15px;
+}
+
+
+
+
+
+#services .fas {
+    color: #0d6efd;
+}
+
+#services .bloc:hover .fas {
+    color: #cde1f8;
+    transition: color 0.3s ease;
 }
