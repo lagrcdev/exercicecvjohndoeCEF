@@ -233,6 +233,11 @@ footer .fa-chevron-right {
     padding: 80px 0;
 }
 
+/* section mentions légales */
+#mentions-legales {
+    padding: 80px 0;
+}
+
 /* section contact */
 #contact {
     background-image: url('images/contact.jpg');
